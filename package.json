@@ -2,10 +2,10 @@
   "name": "ejercicio-en-vivo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "nodemon src/index.js",
-    "start": "node src/index.js"
+    "test": "npx nodemon app.js",
+    "start": "node app"
   },
   "keywords": [],
   "author": "",
