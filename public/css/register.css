@@ -200,6 +200,10 @@ form {
 
 /*--footer START--*/
 
+footer{
+    background-color: #fff;
+}
+
 footer section {
     text-align: center;
 }

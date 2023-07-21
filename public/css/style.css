@@ -243,6 +243,10 @@ article img {
 /*--login END--*/
 /* footer */
 
+footer{
+    background-color: #FFF;
+}
+
 footer section {
     text-align: center;
 }
@@ -305,6 +309,9 @@ section i:hover{
         display: flex;
         justify-content: space-between;
         align-items: center;
+    }
+    .second-nav a{
+        font-size: 10px;
     }
 
     .second-nav .navbar {
