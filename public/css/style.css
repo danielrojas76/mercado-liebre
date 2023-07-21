@@ -311,7 +311,11 @@ section i:hover{
         align-items: center;
     }
     .second-nav a{
-        font-size: 10px;
+        font-size: 8px;
+    }
+
+    .second-nav i{
+        font-size: 8px;
     }
 
     .second-nav .navbar {
@@ -323,10 +327,29 @@ section i:hover{
 
 }
 
+@media (min-width: 507px){
+    .second-nav a{
+        font-size: 12px;
+    }
+
+    .second-nav i{
+        font-size: 12px;
+    }
+}
+
 @media (min-width: 769px) {
     article {
         width: 24%;
     }
+
+    .second-nav a{
+        font-size: 16px;
+    }
+
+    .second-nav i{
+        font-size: 16px;
+    }
+
 
     .box-footer{
         width: 98%;
